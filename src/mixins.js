@@ -1,10 +1,15 @@
 import axios from 'axios';
+<<<<<<< HEAD
 axios.defaults.baseURL = 'http://localhost:3000';
+=======
+//axios.defaults.baseURL = 'http://localhost:52273';
+>>>>>>> 2112133d1533d5d43073333b53b7d4cfb8c358c0
 axios.defaults.headers.post['Content-Type'] = 'application/json;charset=utf-8';
 axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
 
 export default {
   methods: {
+<<<<<<< HEAD
     async $api(url, data) {
       return (await axios({
         //baseURL : 'http://localhost:52273',
@@ -21,6 +26,23 @@ export default {
       })).data;
     },
     /*
+=======
+    // async $api(url, data) {
+    //   return (await axios({
+    //     baseURL : 'http://localhost:52273',
+    //      //headers : {
+    //       // "Content-Type": "multipart/form-data",
+    //       // "Content-Type":'application/json;charset=utf-8',
+    //       //'Access-Control-Allow-Origin': '*',
+    //      //},
+    //     method: 'post',
+    //     url,
+    //     data
+    //   }).catch(e => {
+    //     console.log(e);
+    //   })).data;
+    // },
+>>>>>>> 2112133d1533d5d43073333b53b7d4cfb8c358c0
       async $api(url, data) {
       return (await axios({
         //baseURL : 'http://localhost:52273', 
@@ -37,7 +59,10 @@ export default {
         console.log(e);
       })).data;
     },
+<<<<<<< HEAD
     */
+=======
+>>>>>>> 2112133d1533d5d43073333b53b7d4cfb8c358c0
     $base64(file) {
       return new Promise(resolve => {
         var a = new FileReader();

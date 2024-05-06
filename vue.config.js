@@ -1,5 +1,8 @@
 const { defineConfig } = require('@vue/cli-service')
+<<<<<<< HEAD
 const target = 'http://127.0.0.1:3000';
+=======
+>>>>>>> 2112133d1533d5d43073333b53b7d4cfb8c358c0
 module.exports = defineConfig({
   transpileDependencies: true,
 
@@ -9,6 +12,7 @@ module.exports = defineConfig({
 		}
   },
 
+<<<<<<< HEAD
   devServer: {
     port: 8080,
     proxy: {
@@ -27,4 +31,6 @@ module.exports = defineConfig({
     }
   }
 
+=======
+>>>>>>> 2112133d1533d5d43073333b53b7d4cfb8c358c0
 })

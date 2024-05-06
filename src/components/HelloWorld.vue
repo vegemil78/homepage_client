@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <!-- <div>
     <button @click="getVisitCount()">클릭</button>	
   </div> -->
@@ -10,11 +11,22 @@
         <v-img
           :src="require('../assets/title.png')"
         />
+=======
+  <v-container>
+ 
+
+        <v-img
+          :src="require('../assets/title.png')"
+        />
+      
+    
+>>>>>>> 2112133d1533d5d43073333b53b7d4cfb8c358c0
   </v-container>
 </template>
 
 <script>
 
+<<<<<<< HEAD
 
 
 export default {
@@ -66,3 +78,13 @@ export default {
 } 
 </script>
 
+=======
+export default {
+  name: 'HelloWorld',
+
+
+
+
+}
+</script>
+>>>>>>> 2112133d1533d5d43073333b53b7d4cfb8c358c0
